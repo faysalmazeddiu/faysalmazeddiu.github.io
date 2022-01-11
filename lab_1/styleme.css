@@ -51,3 +51,7 @@ article ul,ol{
 }
 
 
+article ol li a{
+    color: red;
+}
+
