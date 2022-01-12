@@ -55,3 +55,8 @@ article ol li a{
     color: red;
 }
 
+article img{
+    max-width: 100%;
+    height:auto;
+}
+
