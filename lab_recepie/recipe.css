@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	color: #404040;
+	background-color: white;
+	font-size: 11pt;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+	/* //background: lightgray; */
+	margin: auto;
+	height: 100%;
+	width: 80%;
+	
+}
+
+ h1{
+	background-color: #F0F0F0;
+	color: #A4A400 ;
+	font-family: Lucida 'Sans Unicode', Helvetica, Arial;
+	text-align: center;
+	font-size:22pt;
+	font-weight: bold;
+	text-decoration: underline;
+}
+h2{
+	background-color: #F0F0F0;
+	font-family: Lucida 'Sans Unicode', Helvetica, Arial;
+	color: #A4A400 ;
+	text-align: left;
+	font-size:18pt;
+	font-weight:normal;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+p{
+	padding: 10px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.nav ul>li{
+	line-height: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	list-style-type: none;
+}
+
+.sectionIngrident{
+	margin-top: 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.artical ul, ol{
+	padding-left: 40px;
+	padding-bottom: 20px;
+}
+
+.sectionDirection{
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+}
+
+.sectionUserComment{
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+	
+}
+
+.sectionUserComment p{
+	background-color: rgba(255, 217, 0, 0.384);
+	font-style: italic;
+	padding-left: 30px;
+	margin-bottom:10px;
+
+}
+
+.sectionFooter{
+	margin-top: 20px;
+	border-bottom: 1px solid black;
+}
