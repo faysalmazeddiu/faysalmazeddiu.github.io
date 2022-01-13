@@ -15,25 +15,32 @@
 		<h1>Grade Search</h1>
 
 		<div class="form_element">
-
+			<div class="label">
 			<label>Student Name </label>
+			</div>
+			<div class="input">
 			<input type="text" name="student_name" value="" />
-			
+			</div>
 		</div>
 
 		<div class="form_element">
-			
+			<div class="label">
 			<label>Student id </label>
-			<input type="text" name="student_id"/>
-			
+			</div>
+			<div class="input">
+			<input type="text" name="student_id" value=""/>
+			</div>
 		</div>
 
 
 
 		<div class="form_element">
-			
+			<div class="label">
 			<label>Assignment </label>
-			<select>
+		</div>
+
+		<div class="input">
+			<select name="assignment">
 				<option value="assignment1">Assignment-1</option>
 				<option value="assignment2">Assignment-2</option>
 				<option value="assignment3">Assignment-3</option>
@@ -45,28 +52,40 @@
 				<option value="lab3">Lab3</option>
 				<option value="lab4">Lab4</option>
 			</select>
+		</div>
+			
 			
 		</div>
 
 		<div class="form_element">
-			
-			<label>Student Entry </label>
-			<input type="radio" name="student_tntry" value=""/> May 2021
-			<input type="radio" name="student_tntry" value="" checked/> August 2021
-			<input type="radio" name="student_tntry" value=""/> November 2021
-			
+			<div class="label">
+				<label>Student Entry </label>
+			</div>
+			<div class="input">
+				<input type="radio" name="student_tntry" value="May 2021"/> May 2021
+				<input type="radio" name="student_tntry" value="August 2021" checked/> August 2021
+				<input type="radio" name="student_tntry" value="November 2021"/> November 2021
+			</div>
 		</div>
 
 		<div class="form_element">
 
+			<div class="label">
+				<label>Confirm</label>
+			</div>
+			<div class="input">
+			<input type="checkbox" value="1" name="confirm"/> 
+			</div>
 			
-			<input type="checkbox" name="confirm"/> 
-			<label>Confirm</label>
 			
 		</div>
 
 		<div class="form_element">
-            <input type="submit" value="Submit" class="btn">
+		
+			<div class="input">
+				<input type="submit" value="Submit" class="btn">
+			</div>
+		</div>
         </div>
 
 		<div>
