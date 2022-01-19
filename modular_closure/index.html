@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="module.js"></script>
+    <title>Module and Closure Lab</title>
+    <style type="text/css">
+      *{
+        margin: 0px;
+        padding: 0px;
+      }
+      h1{
+           padding-top: 10px;
+           padding-bottom: 10px;
+      }
+
+     p{
+           padding-top: 10px;
+           padding-bottom: 10px;
+      }
+
+      .button {
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        /*top: 10px;
+        position: relative;*/
+
+    }
+        .container{
+          width: 80%;
+          background-color: #CCCCFF;;
+          margin: auto;
+        }
+
+        .rudyTimmer{
+            margin: auto;
+            background-color: lightgray;
+           border-radius: 10px;
+           text-align: center;
+           
+           position: relative;
+
+        }
+        .BankAccount{
+            margin: auto;
+            background-color:lightgray;
+           border-radius: 5px;
+           text-align: center;
+           top: 15px;
+           position: relative;
+           padding: 5px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="rudyTimmer">
+
+            <h1> Ruby Timer</h1>
+            <button  class="button" onclick="rubyTimer.timerStart()">Timer</button>
+            <p id="result"></p>
+
+
+        </div>
+        <div class="BankAccount">
+               <h1>Banking Accounts</h1>
+              <p>
+                Account Name:
+                <input type="text" id="accountName" required placeholder="account name" />
+              </p>
+              <p>Deposit : <input type="text" id="depositMoney" required placeholder="Deposit" /></p>
+              <p>
+                <button class="button"  onclick="createNewaccount.createAccount();">Create New Account</button>
+              </p>
+              <textarea id="accountList" rows="10" cols="40"> </textarea>
+
+        </div>
+
+    </div>
+    
+   
+    
+
+  </body>
+  
+</html>
