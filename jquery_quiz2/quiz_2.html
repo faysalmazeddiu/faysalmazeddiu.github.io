@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			/*
+				$("li").each(function(index,value){
+					alert(index+"===="+value);
+					if (index==1) {
+						$(value).css("color","yellow");
+					}
+					if (index==2) {
+						$(value).css("color","red");
+					}
+					if (index==3) {
+						$(value).css("color","blue");
+					}
+				});
+
+			*/
+
+
+			// assignment-2====================
+				// var val=$("div ul li").parents("div");
+				// alert(val.html());
+
+				// $("div ul").each(function(){
+				// 	 var val=$(this).parents("div");
+				// 	 val.css("border","1px solid red");
+				// });
+				
+			//=================================
+
+
+			//assignment-3=====================
+			// $("body").css("border","1px solid red");
+			// $("body").append("<div><h1>JQuery Core</h1></div>");
+
+
+			//=================================
+
+			// $("li").each(function(idx){
+			// 	alert(idx);
+			// 	//$("body").css("border","1px solid red");
+			// 	$(this).css("color", "yellow");  
+			// });
+
+			// $("li").each(function() {
+   //  			$(this).css("color", "red"); 
+   //  		});
+
+    		$("li").each(function(idx, e) {
+ 				$(e).css("color", "yellow");
+ 			 }); 
+
+
+		});
+	</script>
+</head>
+<body>
+
+
+		Assignment-2
+		<div>No ul here</div>
+		<div>
+			This does contain a ul---1
+			<ul>
+				<li>Bangladesh</li>
+				<li>China</li>
+				<li>Canada</li>
+				<li>London</li>
+			</ul>
+		</div> 
+
+		<div>
+			This does contain a ul---2
+			<ul>
+				<li>Bangladesh</li>
+				<li>China</li>
+				<li>Canada</li>
+				<li>London</li>
+			</ul>
+		</div> 
+
+
+
+<!--
+	<div><h1>JQuery Core</h1></div>
+
+	Assignment-3
+	<!DOCTYPE html>
+	 <html>
+	 <head>
+	 <meta charset="utf-8">
+	 <title>JS Bin</title>
+	 </head>
+	 <body>
+
+	 </body>
+	 </html>
+-->
+
+
+</body>
+</html>
