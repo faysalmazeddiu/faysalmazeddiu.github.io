@@ -2,7 +2,7 @@
     <head>
         <title>QUIZ-3</title>
         <script type="text/javascript" src="jquery.min.js"></script>
-            <!-- <style>
+            <style>
                 p {
                 color: blue;
                 margin: 8px;
@@ -10,22 +10,25 @@
                 span {
                 color: red;
                 }
-            </style> -->
+            </style>
     </head>
-    <!-- 
+    
         <body>
-        <p><span>Test</span> Paragraph.</p>
+        <p><span>Test</span> Paragraph2.</p>
         <p></p>
         <script>
             // answer 1
             $(document).ready(function(){
-                var pContent=$("p").eq(0).text();
-                $("p").eq(1).text(pContent);
+                // var pContent=$("p").eq(0).text();
+                // $("p").eq(1).text(pContent);
+
+                var first=$("p").first().text();
+                $("p").last().html(first);
             });
         </script>
 
        </body>
- -->
+
 
 
     <!-- <body>
@@ -52,8 +55,8 @@
            <script>
                //answer 2
                $(document).ready(function(){
-                   // $(".level-2").css("background-color","red");
-                   $(".level-2").children("li").css("background-color","red");
+                   $(".level-2").children().css("background-color","red");
+                   //$(".level-2").children("li").css("background-color","red");
                });
            </script>
 
@@ -73,13 +76,15 @@
         <script>
             //answer 3
             $(document).ready(function(){
-                $(".third-item").prev().css({"background-color":"blue","color":"red"});
+               // $(".third-item").prev().css({"background-color":"blue","color":"red"});
+                //$(".third-item").prev().css({"background-color":"blue"});
                 //item.css("background-color","blue");
+                $(".third-item").prev().css("background-color","blue");
             });
         </script>
     </body> -->
 
-    <body>
+    <!-- <body>
         <div class="ancestors">
          <div> (great-grandparent)
          <ul> (grandparent)
@@ -90,15 +95,16 @@
          </ul>
          </div>
         </div>
-  </body>
+        <script>
+        $(document).ready(function(){
+            $("span").parent().css("color","green");
+            $("span").parent().parent().css("color","green")
+            $("span").css("color","#000")
+        });
+        </script>
+  </body> -->
 
-  <script>
-    $(document).ready(function(){
-        $("span").parent().css("color","green");
-        $("span").parent().parent().css("color","green")
-        $("span").css("color","#000")
-    });
- </script>
+  
 
 
 

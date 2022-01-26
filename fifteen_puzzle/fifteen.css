@@ -1,0 +1,60 @@
+body {
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+
+#puzzlearea {
+	font-size: 40pt;
+	width: 400px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.puzzlepiece {
+	background-image: url(background.jpeg);
+	border: 3px solid rgb(52, 52, 52);
+	width: 92px;
+	height: 92px;
+	position: absolute; 
+    color: rgb(231, 200, 122);
+	font-size: 40pt;
+	
+}
+
+.movablepiece:hover {
+	border-color: red;
+	color: red;
+	cursor: pointer;
+}
+
+#gradingarea {
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	z-index: 999999;
+}
+
+.valid {
+	background-color: #bfb;
+}
+
+.invalid {
+	background-color: #f88;
+}
+
+button{
+	font-size: 14pt;
+	text-align: center;
+	padding: 15px 7px;
+	cursor: pointer;
+}
+
+#container{
+	padding: 10px;
+	width: 90%;
+	margin: auto;
+}
