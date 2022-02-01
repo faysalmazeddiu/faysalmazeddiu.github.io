@@ -28,7 +28,7 @@ app.post('/operation',urlencoded,(req,res)=>{
 		result=Number(req.body.first_number)*Number(req.body.second_number);
 	}
 
-	res.send("The Answer is: "+result);
+	res.send("The Answer is: "+result+"&nbsp;&nbsp; <a href='/'>Back</a>");
 })
 
 
