@@ -1,0 +1,22 @@
+.container{
+	width: 80%;
+	margin: auto;
+	background-color: lightgray;
+	/*text-align: center;*/
+}
+
+.main{
+	
+	margin: auto;
+	padding: 20px;
+	/*text-align: center;*/
+}
+
+#err{
+	color: red;
+}
+
+/*#meaning{
+	margin: auto;
+	padding: 20px;
+}*/
